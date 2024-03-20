@@ -1,0 +1,21 @@
+n=2768
+def sum_of_digits(n):
+    sum=0
+    while(n>0):
+       rem=n%10
+       sum=sum+rem
+       n=n//10
+    return sum
+print (sum_of_digits(n))
+
+output:23
+
+n=5 
+def fact (n):
+    if n==0 or n==1:
+        return 1
+    else :
+      return n*fact(n-1)
+print (fact(n))   
+
+output:120
